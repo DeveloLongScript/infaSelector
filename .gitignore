@@ -1,3 +1,5 @@
 node_modules
+release-builds
 cli/test
-assets
+assets/forge
+assets/fabric

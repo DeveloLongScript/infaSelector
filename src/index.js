@@ -1,8 +1,8 @@
 const consolef1 = document.getElementById("consolef1")
 const settingsf1 = document.getElementById("settingsf1")
 const prefences = document.getElementById("prefences")
-settingsf1.style.document = "none"
-prefences.style.document = "none"
+settingsf1.style.display = "none"
+prefences.style.display = "none"
 consolef1.style.display ="none"
 const { Client } = require('minecraft-launcher-core')
 const cligate = require("./cli-gate")
@@ -25,7 +25,7 @@ function editTypef1() {
 function sgame() {
     let opts = {
         clientPackage: null,
-        root: "../infaSelector/cli/test",
+        root: "./cli/test",
         version: {
             number: "1.16.1",
             type: "release",
